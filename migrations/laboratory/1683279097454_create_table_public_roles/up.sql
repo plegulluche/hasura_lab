@@ -1,0 +1,1 @@
+CREATE TABLE "public"."roles" ("id" integer NOT NULL, "role" text NOT NULL, PRIMARY KEY ("id","role") , UNIQUE ("id"), UNIQUE ("role"));COMMENT ON TABLE "public"."roles" IS E'managing roles of users';
